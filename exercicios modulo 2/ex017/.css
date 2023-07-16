@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+    font-family:; 
+    font-size: 1.3em ;
+    /*
+    Medidas absolutas
+    centimetros,milimitro,polegada,pixel, ponto,paika
+     CM        ,  MM     , IN     , PX  ,   PT , PC
+
+     Medidas relativas
+      EM=tamanho atual da fonte
+      EX=tamanho da autura x das fontes
+      REM=relativo ao tanho especificado no body
+      VW= relativo ao tamanho da tela que for vista
+      VH= relativo a altura da view port
+      % = almento por porcentagem 
+      16px geralmente = 1em
+    */
+    font-weight: bolder;
+    /*
+    lighter=mais fina que a normal  
+    normal=fonte normal
+    bold= fonte em negrito
+    bolder=negrito 2X
+    */
+    font-style: italic;
+    /*
+     
+    */
+    text-decoration: underline;
+}
+h1{
+    
+    /*
+    shorthand font
+    font-style> font_weight > font-size > font-famoly
+    */
+    font: italic bold 3em sans-serif;
+}
+h2 {
+    font: bold 2em sans-serif;
+}
